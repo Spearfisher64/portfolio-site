@@ -1,5 +1,6 @@
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ModeToggle } from "../mode-toggle";
 import {
     Sheet,
     SheetClose,
@@ -33,6 +34,11 @@ export function Navbar() {
                         </a>
                     ))}
                 </nav>
+                <ModeToggle />
+            </div>
+
+            <div className="flex items-center gap-2 md:hidden">
+                <ModeToggle />
 
                 <div className="md:hidden">
                     <Sheet>

@@ -1,5 +1,8 @@
+"use client";
+
 import { Monitor, Rocket, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { motion } from "motion/react";
 
 export function Hero() {
     const highlights = [
@@ -28,7 +31,10 @@ export function Hero() {
                 <div className="absolute right-10 top-24 h-52 w-52 rounded-full bg-muted/60 blur-3xl dark:bg-muted/30" />
             </div>
 
-            <div className="mx-auto max-w-4xl text-center">
+            <motion.div className="mx-auto max-w-4xl text-center"
+                initial={{ opacity: 0, y: 24 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, ease: "easeOut" }}>
                 <div className="mb-6 inline-flex items-center rounded-full border bg-background/80 px-4 py-1.5 text-sm text-muted-foreground shadow-sm backdrop-blur">
                     Ege Olgun · Web Designer & Developer
                 </div>
@@ -73,7 +79,7 @@ export function Hero() {
                         );
                     })}
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 }

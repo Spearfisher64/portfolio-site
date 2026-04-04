@@ -23,9 +23,9 @@ export function Hero() {
     return (
         <section className="relative overflow-hidden px-6 py-28 md:py-36">
             <div className="absolute inset-0 -z-10">
-                <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-muted blur-3xl opacity-70" />
-                <div className="absolute bottom-10 left-10 h-40 w-40 rounded-full bg-muted/80 blur-3xl" />
-                <div className="absolute right-10 top-24 h-52 w-52 rounded-full bg-muted/60 blur-3xl" />
+                <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-muted opacity-60 blur-3xl dark:opacity-30" />
+                <div className="absolute bottom-10 left-10 h-40 w-40 rounded-full bg-muted/80 blur-3xl dark:bg-muted/40" />
+                <div className="absolute right-10 top-24 h-52 w-52 rounded-full bg-muted/60 blur-3xl dark:bg-muted/30" />
             </div>
 
             <div className="mx-auto max-w-4xl text-center">

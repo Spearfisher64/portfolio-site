@@ -42,7 +42,7 @@ export function Services() {
                         return (
                             <div
                                 key={service.title}
-                                className="rounded-3xl border bg-background p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+                                className="rounded-3xl border bg-card p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:shadow-black/20"
                             >
                                 <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-muted">
                                     <Icon className="h-5 w-5" />

@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 export function Contact() {
     return (
         <section id="iletisim" className="px-6 py-24">
-            <div className="mx-auto max-w-6xl rounded-3xl border bg-muted/30 p-8 md:p-10">
+            <div className="mx-auto max-w-6xl rounded-3xl border bg-card/80 p-8 md:p-10">
                 <div className="grid gap-10 md:grid-cols-2">
                     <div>
                         <p className="mb-3 text-sm text-muted-foreground">İletişim</p>

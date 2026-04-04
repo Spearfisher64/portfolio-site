@@ -40,7 +40,7 @@ export function Projects() {
                     {projects.map((project, index) => (
                         <article
                             key={project.title}
-                            className="group overflow-hidden rounded-3xl border bg-background shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+                            className="group overflow-hidden rounded-3xl border bg-card shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:shadow-black/20"
                         >
                             <div className="relative aspect-[16/10] overflow-hidden border-b bg-muted/40">
                                 <div className="absolute inset-0 bg-gradient-to-br from-background via-muted to-muted" />
